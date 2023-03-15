@@ -4,7 +4,7 @@
             <div class="row align-items-center position-relative py-2">
                 <div class="col-3 text-left order-1">
                     <div class="site-logo">
-                        <a href="/" class="font-weight-bold text-danger"><img src="../assets/images/syringe-logo.jpg"
+                        <a href="/" class="font-weight-bold text-danger"><img src="https://beta.the-syringe.com/images/syringe-logo.jpg"
                                 alt=""></a>
                     </div>
                 </div>

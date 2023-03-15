@@ -2,7 +2,7 @@
     <div class="work_with">
         <navbar></navbar>
         <section class="headings"
-            style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../src/assets/images/nurse-jobs.jpg'), no-repeat center center">
+            style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://beta.the-syringe.com/images/nurse-jobs.jpg'), no-repeat center center">
             <div class="text-heading">
                 <div class="container">
                     <div class="bread">
@@ -20,8 +20,8 @@
                         <MDBCol class="contain mb-3" size='4' sm="6" md="6" lg="3" v-for="product in productList">
                             <div class="preview-top" data-aos="fade">
                                 <img class="img-thumbnail preview"
-                                    v-progressive="'../src/assets/images/' + product.main_image"
-                                    :src="'../src/assets/images/' + product.main_image">
+                                    v-progressive="'https://beta.the-syringe.com/images/' + product.main_image"
+                                    :src="'https://beta.the-syringe.com/images/' + product.main_image">
                             </div>
                             <h3 class="post-title">
                                 <div class="container-fluid">
