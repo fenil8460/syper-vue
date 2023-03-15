@@ -20,18 +20,18 @@
                         <MDBCol class="contain mb-3" size='4' sm="6" md="6" lg="3" v-for="product in productList">
                             <div class="preview-top" data-aos="fade">
                                 <img class="img-thumbnail preview"
-                                    v-progressive="'https://beta.the-syringe.com/images/' + product.main_image"
-                                    :src="'https://beta.the-syringe.com/images/' + product.main_image">
+                                    v-progressive="'https://beta.the-syringe.com/images/skills/' + product.image"
+                                    :src="'https://beta.the-syringe.com/images/skills/' + product.image">
                             </div>
                             <h3 class="post-title">
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-2">
-                                            <img v-progressive="'https://beta.the-syringe.com/images/' + product.logo"
-                                                :src="'https://beta.the-syringe.com/images/' + product.logo" style="width:34px">
+                                            <!-- <img v-progressive="'https://beta.the-syringe.com/images/' + product.logo"
+                                                :src="'https://beta.the-syringe.com/images/' + product.logo" style="width:34px"> -->
                                         </div>
                                         <div class="col-10 p-1 text-black">
-                                            <h6>{{ product.name }}</h6>
+                                            <h6>{{ product.skills_name }}</h6>
                                         </div>
                                     </div>
                                 </div>
