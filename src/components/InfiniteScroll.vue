@@ -27,8 +27,8 @@
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-2">
-                                            <img v-progressive="'../src/assets/images/' + product.logo"
-                                                :src="'../src/assets/images/' + product.logo" style="width:34px">
+                                            <img v-progressive="'https://beta.the-syringe.com/images/' + product.logo"
+                                                :src="'https://beta.the-syringe.com/images/' + product.logo" style="width:34px">
                                         </div>
                                         <div class="col-10 p-1 text-black">
                                             <h6>{{ product.name }}</h6>
