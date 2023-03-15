@@ -7,7 +7,7 @@
                 <div class="container">
                     <div class="bread">
                         <h3 class="text-white">Nursing</h3>
-                        <p class="text-white">Icu Nurse, Dialysis Nurse , Ward Nurse , A &amp; E Nurse , Oncology Nurse</p>
+                        <p class="text-white">Icu Nurse, Dialysis Nurse, Ward Nurse , A &amp; E Nurse , Oncology Nurse</p>
                     </div>
                 </div>
             </div>
